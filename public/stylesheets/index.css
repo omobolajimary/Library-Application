@@ -1,0 +1,29 @@
+body{
+	background-color:#FFF;
+	font-family: helvetica, courier;
+	font-weight: bold;
+	color: black;
+}
+header{
+	padding-top: 20px;
+}
+h1{
+	color:orange;
+	font-weight: bold;
+}
+
+.row:before,
+.row:after,
+.group:before,
+.group:after{
+	content:"";
+	display:table;
+}
+.row:after,
+.group:after{
+clear:both;
+}
+.row,
+.group{
+zoom:1;
+}

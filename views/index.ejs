@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie-edge">
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="stylesheet/lib.css">
+<!--Firebase Link-->
+<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA6cmiCj6Chw6Vg9t12a966Rs0LOeD5Zx4",
+    authDomain: "my-library-application-a600d.firebaseapp.com",
+    databaseURL: "https://my-library-application-a600d.firebaseio.com",
+    storageBucket: "my-library-application-a600d.appspot.com",
+    messagingSenderId: "617207975882"
+  };
+  firebase.initializeApp(config);
+</script>
+	</head>
+	<body>
+  <%= title %>
+	<!-- Jquery first then Bootstrap JS--> 
+	<script src="jquery/dist/jquery.min.js"></script>
+	<script src="tether/dist/js/tether.min.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery/cycle2.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+	<div class="logo">
+		<img scr="http://podozi.com/media/wysiwyg/milano/default/podozi-logo.jpg">
+	</div>
+		<header>
+<div site>
+			<nav class="site-nav"> 
+					<ul class="group">
+						<li><a href="index">Home</a></li>
+						<li><a href="login">Login</a></li>
+            <li><a href="signup">signup</a></li>						
+						<li><a href="admin.html">Admin</a></li>
+					</ul>
+			</nav>
+
+			</div>
+		</header>
+<h1> Library Management Application</h1>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="cycle-slideshow" data-cycle-slides=".slide">
+				<span class="cycle-prev">&laquo;</span>
+				<span class="cycle-next">&raquo;</span>
+				<div class="slide">
+			<img src="images/homeimage.jpg">
+				<div class="slide-text">
+				</div>
+				</div>
+				<div class="slide">
+			<img src="images/offlineLibrary.jpg">
+				<div class="slide-text">
+				</div>
+				</div>
+				<div class="slide">
+			<img src="images/images1.jpg">
+					<div class="slide-text">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</p>
+</div>
+<div class="main-content">
+	<div class="row">
+<!-- col-->
+	<div class="col col-xs-4">
+<h3></h3>
+	<p><span data-toggle-target=".full-text" class="toggle-btn"></span></p>
+ <div class="full-text class">
+ <h3></h3>
+ <p> </p></div>
+</div> <!--/col-->
+<div class="col col-xs-4">
+<h3></h3>
+<p></p>
+</div> <!--/col-->
+<!--col-->
+<div class=" col col-xs-4">
+<h3></h3>
+	<p></p>
+</div><!--/col-->
+</div><!--/row-->
+</div>
+<footer>
+<div class="footer-container">
+<div class="footer-column">
+<div class="row">
+<div class="col col-xs-4">
+	<ul class="footer-list">
+		<li> About Us</li>
+	</ul>
+</div>
+<div class="footer-column">
+<div class="col col-xs-4">
+	<ul class="footer-list">
+		<li> FAQ</li>
+	</ul>
+</div>
+<div class="footer-column">
+<div class="col col-xs-4">
+	<ul class="footer-list">
+		<li> Connect with Us</li>
+	</ul>
+</div>
+</div>
+</footer>
+
+	<div class="row">
+	<div class="col col-xs-4">
+
+	</div>
+	</div>
+
+</footer>
+</body>
+</html>
