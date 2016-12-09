@@ -11,7 +11,7 @@ var config = {
   firebase.initializeApp(config);
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: ' ' });
 });
 
 router.get('/login', function(req, res, next){
@@ -52,6 +52,5 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
   res.redirect('/book')
 })
 })
-
 module.exports = router;
 
