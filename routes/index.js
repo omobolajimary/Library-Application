@@ -35,7 +35,7 @@ router.post('/signup', function(req, res, next){
      console.log(err.message);
    })
    .then(function(snapshot){
-     res.redirect('/book')
+     res.redirect('/login')
    })
 })
 router.post('/login',function(req, res, next){
