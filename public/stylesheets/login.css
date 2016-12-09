@@ -126,6 +126,9 @@ textarea {
 .field-wrap {
   position:relative;
   margin-bottom:40px;
+  max-width: 600px;
+
+
 }
 
 .top-row{
